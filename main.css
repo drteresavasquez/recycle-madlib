@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Itim");
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+  overflow: scroll;
+}
+
+p{
+  font-family: "Itim", cursive;
+  font-size: 1.5em;
+  color:#2a0d45;
+}
+
+.libs{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.5em;
+}
+
+.instructions{
+  width: 90%;
+  margin:0 auto;
+  margin-bottom: 15px;
+}
+.container {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: #2a0d45 !important;
+  border: 1px solid white !important;
+}
+
+input[type=text]{
+  font-family: "Itim", cursive;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+  color: red;
+}
+
+.code-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.word-inputs {
+  text-align: left;
+}
+.page-heading{
+  text-align:center;
+  margin-bottom:25px;
+}
